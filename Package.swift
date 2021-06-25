@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "NewRelicSPM",
+    name: "NewRelic",
     products: [
         .library(
-            name: "NewRelicSPM",
+            name: "NewRelic",
             targets: ["NewRelic"]),
     ],
     dependencies: [],
